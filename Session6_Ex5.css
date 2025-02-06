@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(63, 160, 63);
+  padding: 15px;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.menu {
+  text-decoration: none;
+  position: relative;
+  left: 950px;
+}
+
+.intro {
+  background-color: rgb(225, 222, 222);
+  text-align: center;
+  padding: 200px;
+  line-height: 50px;
+}
+
+.intro button {
+  background-color: rgb(63, 160, 63);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.selector {
+  padding: 20px;
+}
+
+.selector button {
+  background-color: rgb(198, 198, 198);
+  border-radius: 10px;
+  border: none;
+  padding: 10px 170px;
+}
+
+footer {
+  background-color: rgb(118, 118, 118);
+  padding: 15px;
+  text-align: center;
+}
